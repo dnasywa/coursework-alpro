@@ -23,29 +23,23 @@ public class RockPaperScissor {
         return sc.nextLine();
     }
 }
+
+// + main class
 /*
-String userMove;
-        if (input.equalsIgnoreCase("rock")) {
-            userMove = "1";
-        } else if (input.equalsIgnoreCase("paper")) {
-            userMove = "2";
+public class Main {
+    public static void movement() {
+        String userMove = RockPaperScissor.user
+        String adminMove = RockPaperScissor.admin
+        System.out.println("The computer's choose " +userMove);
+        
+        String score;
+        if (userMove==adminMove) {
+            score = "It is draw";
+        } else if (userMove == rock && adminMove == scissor || userMove == scissor && adminMove == paper || userMove == paper && adminMove == rock {
+            score = "You lose!";
         } else {
-            userMove = "3";
-        }
- */
-/*
-package com.example;
-
-import java.util.Random;
-
-public class RockPaperScissor {
-
-    public static void main(String[] args) {
-        Random num = new Random();
-        int rps = num.nextInt(3);
-        System.out.println(rps);
-
-        // gimana bikin if nya??
+            score = "You win!";
+        } System.out.println(score)
     }
-}
+} 
 */
